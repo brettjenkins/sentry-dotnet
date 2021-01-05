@@ -1,0 +1,325 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ISpanContext
+   | Sentry .NET </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ISpanContext
+   | Sentry .NET ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../images/sentry.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Sentry.Protocol.ISpanContext">
+  
+  
+  <h1 id="Sentry_Protocol_ISpanContext" data-uid="Sentry.Protocol.ISpanContext" class="text-break">Interface ISpanContext
+  </h1>
+  <div class="markdown level0 summary"><p>Span metadata.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Sentry.Protocol.html">Sentry.Protocol</a></h6>
+  <h6><strong>Assembly</strong>: Sentry.dll</h6>
+  <h5 id="Sentry_Protocol_ISpanContext_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ISpanContext</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/getsentry/sentry-dotnet/new/8804fa8b86db2d6b590e11c7d8bcb422185e03ff/apiSpec/new?filename=Sentry_Protocol_ISpanContext_IsSampled.md&amp;value=---%0Auid%3A%20Sentry.Protocol.ISpanContext.IsSampled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/getsentry/sentry-dotnet/blob/8804fa8b86db2d6b590e11c7d8bcb422185e03ff/src/Sentry/Protocol/ISpanContext.cs/#L39">View Source</a>
+  </span>
+  <a id="Sentry_Protocol_ISpanContext_IsSampled_" data-uid="Sentry.Protocol.ISpanContext.IsSampled*"></a>
+  <h4 id="Sentry_Protocol_ISpanContext_IsSampled" data-uid="Sentry.Protocol.ISpanContext.IsSampled">IsSampled</h4>
+  <div class="markdown level1 summary"><p>Is sampled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsSampled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/getsentry/sentry-dotnet/new/8804fa8b86db2d6b590e11c7d8bcb422185e03ff/apiSpec/new?filename=Sentry_Protocol_ISpanContext_Operation.md&amp;value=---%0Auid%3A%20Sentry.Protocol.ISpanContext.Operation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/getsentry/sentry-dotnet/blob/8804fa8b86db2d6b590e11c7d8bcb422185e03ff/src/Sentry/Protocol/ISpanContext.cs/#L29">View Source</a>
+  </span>
+  <a id="Sentry_Protocol_ISpanContext_Operation_" data-uid="Sentry.Protocol.ISpanContext.Operation*"></a>
+  <h4 id="Sentry_Protocol_ISpanContext_Operation" data-uid="Sentry.Protocol.ISpanContext.Operation">Operation</h4>
+  <div class="markdown level1 summary"><p>Operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Operation { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/getsentry/sentry-dotnet/new/8804fa8b86db2d6b590e11c7d8bcb422185e03ff/apiSpec/new?filename=Sentry_Protocol_ISpanContext_ParentSpanId.md&amp;value=---%0Auid%3A%20Sentry.Protocol.ISpanContext.ParentSpanId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/getsentry/sentry-dotnet/blob/8804fa8b86db2d6b590e11c7d8bcb422185e03ff/src/Sentry/Protocol/ISpanContext.cs/#L19">View Source</a>
+  </span>
+  <a id="Sentry_Protocol_ISpanContext_ParentSpanId_" data-uid="Sentry.Protocol.ISpanContext.ParentSpanId*"></a>
+  <h4 id="Sentry_Protocol_ISpanContext_ParentSpanId" data-uid="Sentry.Protocol.ISpanContext.ParentSpanId">ParentSpanId</h4>
+  <div class="markdown level1 summary"><p>Parent ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SpanId? ParentSpanId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="Sentry.Protocol.SpanId.html">SpanId</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/getsentry/sentry-dotnet/new/8804fa8b86db2d6b590e11c7d8bcb422185e03ff/apiSpec/new?filename=Sentry_Protocol_ISpanContext_SpanId.md&amp;value=---%0Auid%3A%20Sentry.Protocol.ISpanContext.SpanId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/getsentry/sentry-dotnet/blob/8804fa8b86db2d6b590e11c7d8bcb422185e03ff/src/Sentry/Protocol/ISpanContext.cs/#L14">View Source</a>
+  </span>
+  <a id="Sentry_Protocol_ISpanContext_SpanId_" data-uid="Sentry.Protocol.ISpanContext.SpanId*"></a>
+  <h4 id="Sentry_Protocol_ISpanContext_SpanId" data-uid="Sentry.Protocol.ISpanContext.SpanId">SpanId</h4>
+  <div class="markdown level1 summary"><p>Span ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SpanId SpanId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sentry.Protocol.SpanId.html">SpanId</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/getsentry/sentry-dotnet/new/8804fa8b86db2d6b590e11c7d8bcb422185e03ff/apiSpec/new?filename=Sentry_Protocol_ISpanContext_Status.md&amp;value=---%0Auid%3A%20Sentry.Protocol.ISpanContext.Status%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/getsentry/sentry-dotnet/blob/8804fa8b86db2d6b590e11c7d8bcb422185e03ff/src/Sentry/Protocol/ISpanContext.cs/#L34">View Source</a>
+  </span>
+  <a id="Sentry_Protocol_ISpanContext_Status_" data-uid="Sentry.Protocol.ISpanContext.Status*"></a>
+  <h4 id="Sentry_Protocol_ISpanContext_Status" data-uid="Sentry.Protocol.ISpanContext.Status">Status</h4>
+  <div class="markdown level1 summary"><p>Status.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SpanStatus? Status { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="Sentry.Protocol.SpanStatus.html">SpanStatus</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/getsentry/sentry-dotnet/new/8804fa8b86db2d6b590e11c7d8bcb422185e03ff/apiSpec/new?filename=Sentry_Protocol_ISpanContext_TraceId.md&amp;value=---%0Auid%3A%20Sentry.Protocol.ISpanContext.TraceId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/getsentry/sentry-dotnet/blob/8804fa8b86db2d6b590e11c7d8bcb422185e03ff/src/Sentry/Protocol/ISpanContext.cs/#L24">View Source</a>
+  </span>
+  <a id="Sentry_Protocol_ISpanContext_TraceId_" data-uid="Sentry.Protocol.ISpanContext.TraceId*"></a>
+  <h4 id="Sentry_Protocol_ISpanContext_TraceId" data-uid="Sentry.Protocol.ISpanContext.TraceId">TraceId</h4>
+  <div class="markdown level1 summary"><p>Trace ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SentryId TraceId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sentry.SentryId.html">SentryId</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/getsentry/sentry-dotnet/new/8804fa8b86db2d6b590e11c7d8bcb422185e03ff/apiSpec/new?filename=Sentry_Protocol_ISpanContext.md&amp;value=---%0Auid%3A%20Sentry.Protocol.ISpanContext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/getsentry/sentry-dotnet/blob/8804fa8b86db2d6b590e11c7d8bcb422185e03ff/src/Sentry/Protocol/ISpanContext.cs/#L9" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
